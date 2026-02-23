@@ -1,0 +1,19 @@
+﻿Running OCR (this may take a few seconds)...
+
+Extracted fields:
+  processor_name: 'Aakash Basak'
+  tms_type: '2.O'
+  claim_sub_type: 'Cashless'
+  claim_type: 'OPD'
+  role: 'CPD'
+  case_type: 'New'
+  no_of_pages: ''
+  case_number: 'CAPF/PVT/R1/2025/1016506220'
+  scheme: 'CAPF'
+  claimed_amount: '2'
+  approved_amount: '04022026'
+  remarks: ''
+  reason: ''
+  action_taken: 'Approved'
+  deficiencies: 'Other'
+  deficiencies_text: 'NA'

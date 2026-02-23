@@ -1,3 +1,20 @@
+"""
+NOTE: This script is no longer required for normal use.
+
+extract.py now uses anchor-based OCR — it automatically locates fields by
+searching for nearby text labels (e.g. "Claimed Amount", "Action", "Remarks")
+rather than relying on fixed pixel coordinates.  You can simply run:
+
+    python main.py
+
+without running this setup script first.
+
+This file is kept as a manual override tool.  If anchor detection ever fails
+for a particular field on an unusual document layout, you can run this script
+to regenerate template.json with hand-drawn bounding boxes, and then edit
+extract.py to fall back to those coordinates for that specific field.
+"""
+
 import sys
 import json
 import os
